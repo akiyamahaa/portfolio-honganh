@@ -11,7 +11,7 @@ const Container = ({ children, style }: Props) => {
   return (
     <div
       className={cn(
-        "container mx-auto px-8 max-w-screen-2xl overflow-hidden",
+        "container mx-auto px-8 max-w-screen-xl overflow-hidden",
         style
       )}
     >

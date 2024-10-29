@@ -13,7 +13,7 @@ type Props = {
 const Card = ({ description, imageSource, title, href }: Props) => {
   return (
     <Link href={href}>
-      <div className="max-w-[368px] min-w-[320px] rounded-3xl overflow-hidden relative w-full flex items-end h-[600px] transform transition-transform duration-500 ease-in-out hover:scale-105 hover:translate-y-[-40px]">
+      <div className="max-w-[320px] min-w-[240px] rounded-3xl overflow-hidden relative w-full flex items-end h-[600px] transform transition-transform duration-500 ease-in-out hover:scale-105 hover:translate-y-[-40px]">
         <Image
           src={imageSource}
           alt="image-activity"
