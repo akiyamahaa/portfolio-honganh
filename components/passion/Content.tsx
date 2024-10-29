@@ -28,7 +28,7 @@ const Content = () => {
             />
             <Image
               src={images.passion2}
-              className="rounded-3xl h-[368px] object-cover md:w-1/2 w-full xl:w-3/5"
+              className="rounded-3xl h-[368px] object-cover object-top md:w-1/2 w-full xl:w-3/5"
               alt="img-passion"
             />
           </DivAnim>
