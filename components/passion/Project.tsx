@@ -59,31 +59,31 @@ const Project = () => {
           listImages={reasonance}
           title="Lamode Fashion Show 2024"
           direction="left"
-          subTitle="REASONACE"
+          subTitle="RESONANCE"
         />
         <GalleryImage
           listImages={songvien}
-          title="Song Vien 2024"
+          title="SHOWCASE 2024"
           direction="right"
-          subTitle="SHOWCASE"
+          subTitle="SONG VIỄN"
         />
         <GalleryImage
           listImages={secret}
-          title="The Secret"
+          title="PHOTOSHOOT"
           direction="left"
-          subTitle="PHOTOSHOOT"
+          subTitle="The Secret"
         />
         <GalleryImage
           listImages={phoenix}
-          title="The Phoenix"
+          title="PHOTOSHOOT"
           direction="right"
-          subTitle="PHOTOSHOOT"
+          subTitle="The Phoenix"
         />
         <GalleryImage
           listImages={lostinstyle}
-          title="Lost In Style"
+          title="PHOTOSHOOT"
           direction="left"
-          subTitle="PHOTOSHOOT"
+          subTitle="Lost In Style"
         />
       </div>
     </DivAnim>

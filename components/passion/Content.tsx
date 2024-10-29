@@ -105,7 +105,7 @@ const Content = () => {
           <DivAnim className="w-full xl:w-1/2 xl:pl-3 mb-6">
             <VideoCard
               videoSource="https://firebasestorage.googleapis.com/v0/b/vivuhanoi-expo.appspot.com/o/Honey%20(%20R.%20N.%20Dett)%20(2)%20-%20Tra%CC%82%CC%80n%20Ho%CC%82%CC%80ng%20Anh.mp4?alt=media&token=b2a7e451-3ec6-4b75-9066-0248f0ed87d0"
-              caption="Honey ( R. N. Dett) (2) - Trần Hồng Anh"
+              caption="Honey (R. N. Dett) - Trần Hồng Anh"
             />
           </DivAnim>
           <DivAnim className="w-full mb-6">
