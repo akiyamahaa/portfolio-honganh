@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
+@font-face {
+  font-family: 'MRCH';
+  src: url('/fonts/MRCHNewYork.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,11 +25,22 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bgHome {
+  background-image: url('/images/bg-home.png');
+  /* Relative to public */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bgActivity {
+  background-image: url('/images/bg.jpg');
+  /* Relative to public */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }

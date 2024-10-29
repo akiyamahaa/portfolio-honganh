@@ -11,6 +11,24 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          600: "#FF6F61",
+          50: "#FFF2F1",
+        },
+      },
+      fontFamily: {
+        custom: ["MRCH", "sans-serif"],
+      },
+      zIndex: {
+        max: "999",
+      },
+      clipPath: {
+        "hide-right": "inset(0 8px 0 0)", // Hides overflow on the right
+        "hide-left": "inset(0 0 0 8px)", // Hides overflow on the left
+      },
+      maskImage: {
+        "hide-left": "linear-gradient(to right, transparent, black 8px, black)", // Hides overflow on the left
+        "hide-right": "linear-gradient(to left, transparent, black 8px, black)", // Hides overflow on the right
       },
     },
   },
