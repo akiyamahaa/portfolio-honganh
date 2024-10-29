@@ -16,25 +16,14 @@ const About = () => {
           {/* content */}
           <div className="flex-1 pt-4 md:pt-12 xl:pt-0">
             <p className="text-base xl:text-lg text-gray-600 mb-4">
-              I&apos;m an energetic and ambitious young girl with a passion for
-              learning and a vision to make a mark in the finance world. My
-              journey started early, with a fascination for numbers and trends,
-              which later grew into a desire to understand the mechanics of
-              business and investment.
-            </p>
-            <p className="text-base xl:text-lg text-gray-600 mb-4">
-              Alongside my academic pursuits, I&apos;ve always had a keen eye
-              for fashion. This led me to become the head of the model
-              department in my school&apos;s fashion club, where I discovered
-              the art of merging style with leadership.
-            </p>
-            <p className="text-base xl:text-lg text-gray-600 mb-4">
-              My passion and creativity were recently recognized on a larger
-              scale when I won the gold medal at &quot;One Idea One World,&quot;
-              an event celebrated for fostering innovative startup ideas
-              supported by Google and Nike. This experience validated my love
-              for entrepreneurship, solidifying my resolve to innovate and lead
-              in the finance world.
+              I&apos;m an energetic and ambitious young girl passionate about
+              finance, driven by a fascination with numbers and business
+              mechanics. Beyond academics, I led my school&apos;s fashion club
+              model department, blending style with leadership. Recently, my
+              entrepreneurial spirit was recognized when I won a gold medal at
+              &quot;One Idea One World,&quot; a Google and Nike-backed event for
+              innovative startup ideas. This achievement reinforced my
+              commitment to leading and innovating in finance.
             </p>
             <ListButton />
           </div>
