@@ -4,14 +4,14 @@
 
 /* styles/globals.css */
 @font-face {
-  font-family: 'MRCH';
-  src: url('/fonts/MRCHNewYork.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Hatton';
+  src: url('/fonts/Hatton-Medium.otf') format('opentype');
+  font-weight: 500;
   font-style: normal;
 }
 
 .bgHome {
-  background-image: url('/images/bg-home.png');
+  background-image: url('/images/home-banner.jpg');
   /* Relative to public */
   background-size: cover;
   background-position: center;

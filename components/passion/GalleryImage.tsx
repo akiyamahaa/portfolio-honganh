@@ -11,7 +11,7 @@ type Props = {
   listImages: StaticImageData[];
 };
 
-const GalleryImage = ({ direction, title, subTitle, listImages }: Props) => {
+const GalleryImage = ({ direction, title, listImages }: Props) => {
   return (
     <DivAnim>
       <Container>
@@ -19,12 +19,12 @@ const GalleryImage = ({ direction, title, subTitle, listImages }: Props) => {
           <h2 className="text-xl md:text-2xl xl:text-3xl text-gray-800">
             {title}
           </h2>
-          <div className="flex flex-row gap-2 items-center ">
+          {/* <div className="flex flex-row gap-2 items-center ">
             <div className="w-[18px] h-[18px] rounded-full bg-gray-200" />
             <p className="text-lg bg-primary-600 rounded-lg py-1 px-3">
               {subTitle}
             </p>
-          </div>
+          </div> */}
         </div>
       </Container>
       <div className="mt-6">

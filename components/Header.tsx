@@ -1,8 +1,6 @@
 "use client";
 
-import Image from "next/image";
 import Container from "./Container";
-import images from "@/constants/images";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Link from "next/link";
@@ -40,7 +38,7 @@ const Header = () => {
         <div className="flex flex-row justify-between items-center">
           <Link href="/">
             <div className="flex flex-row items-center gap-4">
-              <Image src={images.logo} alt="logo" className="w-[52px] h-16" />
+              {/* <Image src={images.logo} alt="logo" className="w-[52px] h-16" /> */}
               <p className="text-primary-600 text-xl font-semibold">
                 HONG ANH TRAN
               </p>

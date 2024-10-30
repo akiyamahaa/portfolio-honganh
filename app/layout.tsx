@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <div className="bg-white">
           <Header />
-          <div className="mt-24">{children}</div>
+          <div className="mt-[60px]">{children}</div>
         </div>
       </body>
     </html>

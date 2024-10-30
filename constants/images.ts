@@ -1,5 +1,6 @@
 import logo from "@/public/images/logo.png";
-import homeBanner from "@/public/images/home-banner.png";
+import homeBanner from "@/public/images/home-banner.jpg";
+import homeBannerImg from "@/public/images/home-banner-img.png";
 import bg from "@/public/images/bg.jpg";
 
 import certificate from "@/public/images/certificate.jpg";
@@ -117,11 +118,21 @@ import support11 from "@/public/images/support/support-11.jpg";
 import support12 from "@/public/images/support/support-12.jpg";
 import support13 from "@/public/images/support/support-13.jpg";
 
+import passionBanner1 from "@/public/images/passion/passion-banner-mobile.jpg";
+import passionBanner2 from "@/public/images/passion/passion-banner.jpg";
+
+import financeBanner1 from "@/public/images/finance/finance-banner-mobile.jpg";
+import financeBanner2 from "@/public/images/finance/finance-banner.jpg";
+
+import supportBanner1 from "@/public/images/support/support-banner-mobile.jpg";
+import supportBanner2 from "@/public/images/support/support-banner.jpg";
+
 const images = {
   logo,
   bg,
   certificate,
   homeBanner,
+  homeBannerImg,
   navhome0,
   navhome1,
   navhome2,
@@ -234,6 +245,15 @@ const images = {
   support11,
   support12,
   support13,
+
+  passionBanner1,
+  passionBanner2,
+
+  financeBanner1,
+  financeBanner2,
+
+  supportBanner1,
+  supportBanner2,
 };
 
 export default images;

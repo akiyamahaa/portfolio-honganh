@@ -8,10 +8,8 @@ import React from "react";
 const PassionPage = () => {
   return (
     <div className="">
-      <Hero
-        title="The little girl always has a deep love for the performing arts"
-        image={images.navhome0}
-      />
+      <Hero images={[images.passionBanner1, images.passionBanner2]} />
+
       <Content />
       <Project />
       <Footer />

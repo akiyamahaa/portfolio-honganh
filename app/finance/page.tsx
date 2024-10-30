@@ -8,10 +8,7 @@ import React from "react";
 const FinancePage = () => {
   return (
     <div className="">
-      <Hero
-        title="The contribution for the financial field"
-        image={images.navhome1}
-      />
+      <Hero images={[images.financeBanner1, images.financeBanner2]} />
       <Content />
       <Footer />
     </div>

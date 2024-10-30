@@ -17,7 +17,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        custom: ["MRCH", "sans-serif"],
+        hatton: ["Hatton", "sans-serif"],
       },
       zIndex: {
         max: "999",

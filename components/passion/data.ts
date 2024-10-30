@@ -2,7 +2,7 @@ import images from "@/constants/images";
 
 export const reasonance = [
   images.resonance1,
-  images.resonance2,
+  // images.resonance2,
   images.resonance3,
   images.resonance4,
   images.resonance5,

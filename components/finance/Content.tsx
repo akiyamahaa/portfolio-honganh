@@ -16,12 +16,20 @@ const Content = () => {
             The base of my life - Family
           </h1>
           <PAnim className="text-base xl:text-lg text-gray-600">
-            My family has always been my foundation. My parents are dynamic
-            entrepreneurs, managing companies, which means they&apos;re often
-            busy. That&apos;s why my childhood is closely tied to memories of my
-            mother&apos;s office. She would often pick me up from school and
-            take me directly to her workplace, and it&apos;s likely that my
-            early interest in the financial field began there.
+            My family has always been my foundation. My parents work as
+            managers, often keeping them busy. That&apos;s why my childhood is
+            closely tied to memories of my mother&apos;s office. She would often
+            pick me up from school and take me directly to her workplace at the
+            bank, and it&apos;s likely that my early interest in the financial
+            field began there. My parents, as representatives of several major
+            American brands, have given me valuable opportunities to learn more
+            about the culture and pioneering spirit of the U.S. Through stories
+            about the professional work environment, the innovation, and the
+            drive for progress of these American brands, I gradually developed a
+            dream of studying and experiencing life there. The U.S. is not only
+            a place to gain knowledge but also a place where I can fully grow in
+            creativity and professional skills—aligning perfectly with the
+            direction my parents have inspired in me.
           </PAnim>
           <div className="flex flex-col md:flex-row gap-6">
             <div className="w-full xl:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -343,15 +351,17 @@ const Content = () => {
               reliable process.
             </PAnim>
             <PAnim className="text-base xl:text-lg text-gray-600">
-              In business meetings, I offered insights on exchange rate reserves
-              and shipping costs, aiming to optimize expenses. I also compiled
-              the July 2023 financial report, analyzing data to guide financial
+              In business meetings, I forecasted exchange rate fluctuations and
+              international shipping costs, recommending the allocation of
+              contingency funds for these categories, which substantially
+              mitigated the company&apos;s financial losses. I also compiled the
+              July 2023 financial report, analyzing data to guide financial
               decisions.
             </PAnim>
             <PAnim className="text-base xl:text-lg text-gray-600">
-              This experience gave me a solid understanding of accounting, from
-              data management to strategic financial planning, supporting
-              MITEC&apos;s financial efficiency.
+              This experience gave me a solid understanding of accounting,
+              finance, from data management to strategic financial planning,
+              supporting MITEC&apos;s financial efficiency.
             </PAnim>
 
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">

@@ -47,7 +47,7 @@ const Project = () => {
             the Gifted. By organizing weekly training sessions, developing
             thematic photoshoots, and facilitating collaborations with stylists,
             I gained a deeper understanding of visual storytelling and brand
-            representation. Events like the Song Vien 2024 Showcase and Lamode
+            representation. Events like the Song Vien 2023 Showcase and Lamode
             Fashion Show 2024 “Resonance&quot; allowed me to guide models in
             bringing our creative visions to life.
           </p>
@@ -57,31 +57,31 @@ const Project = () => {
       <div className="mt-16 space-y-16">
         <GalleryImage
           listImages={reasonance}
-          title="Lamode Fashion Show 2024"
+          title="LAMODE FASHION SHOW 2024: RESONANCE"
           direction="left"
           subTitle="RESONANCE"
         />
         <GalleryImage
           listImages={songvien}
-          title="SHOWCASE 2024"
+          title="SHOWCASE 2023: SONG VIEN"
           direction="right"
           subTitle="SONG VIỄN"
         />
         <GalleryImage
           listImages={secret}
-          title="PHOTOSHOOT"
+          title="PHOTOSHOOT: THE SECRET"
           direction="left"
           subTitle="The Secret"
         />
         <GalleryImage
           listImages={phoenix}
-          title="PHOTOSHOOT"
+          title="PHOTOSHOOT: THE PHOENIX"
           direction="right"
           subTitle="The Phoenix"
         />
         <GalleryImage
           listImages={lostinstyle}
-          title="PHOTOSHOOT"
+          title="PHOTOSHOOT: LOST IN STYLE"
           direction="left"
           subTitle="Lost In Style"
         />

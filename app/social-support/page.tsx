@@ -8,7 +8,7 @@ import React from "react";
 const SocialSupportPage = () => {
   return (
     <div className="">
-      <Hero title="My compassion for Volunteering" image={images.navhome2} />
+      <Hero images={[images.supportBanner1, images.supportBanner2]} />
       <Content />
       <Footer />
     </div>
