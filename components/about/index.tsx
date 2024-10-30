@@ -31,8 +31,8 @@ const About = () => {
                 trends, which later grew into a desire to understand the
                 mechanics of business and investment. Alongside my academic
                 pursuits, I&apos;ve always had a keen eye for fashion. This led
-                me to become the head of the model department in my
-                school&apos;s fashion club, where I discovered the art of
+                me to become the head of the model department in the Hanoi
+                Amsterdam&apos;s fashion club, where I discovered the art of
                 merging style with leadership. My passion and creativity were
                 recently recognized on a larger scale when I won the gold medal
                 at &quot;One Idea One World,&quot; an event celebrated for
