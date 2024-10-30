@@ -5,9 +5,12 @@ import bg from "@/public/images/bg.jpg";
 
 import certificate from "@/public/images/certificate.jpg";
 
-import navhome0 from "@/public/images/navhome0.jpeg";
-import navhome1 from "@/public/images/navhome1.jpeg";
-import navhome2 from "@/public/images/navhome2.jpg";
+import navhome0 from "@/public/images/card-1.png";
+import navhome1 from "@/public/images/card-2.png";
+import navhome2 from "@/public/images/card-3.png";
+
+import nhangiai1 from "@/public/images/passion/nhangiai1.jpg";
+import nhangiai2 from "@/public/images/passion/nhangiai2.jpg";
 
 import passion1 from "@/public/images/passion/passion-img-1.jpg";
 import passion2 from "@/public/images/passion/passion-img-2.jpg";
@@ -118,6 +121,9 @@ import support11 from "@/public/images/support/support-11.jpg";
 import support12 from "@/public/images/support/support-12.jpg";
 import support13 from "@/public/images/support/support-13.jpg";
 
+import timken1 from "@/public/images/finance/timken1.jpg";
+import timken2 from "@/public/images/finance/timken2.jpg";
+
 import passionBanner1 from "@/public/images/passion/passion-banner-mobile.jpg";
 import passionBanner2 from "@/public/images/passion/passion-banner.jpg";
 
@@ -137,6 +143,9 @@ const images = {
   navhome1,
   navhome2,
 
+  timken1,
+  timken2,
+
   passion1,
   passion2,
   passion3,
@@ -145,6 +154,9 @@ const images = {
   passion6,
   passion7,
   passion8,
+
+  nhangiai1,
+  nhangiai2,
 
   resonance1,
   resonance2,

@@ -1,9 +1,11 @@
 "use client";
 
 import Container from "./Container";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import Link from "next/link";
+import images from "@/constants/images";
+import Image from "next/image";
 
 const navOptions = [
   {
@@ -12,24 +14,26 @@ const navOptions = [
   },
   {
     title: "Passion",
-    href: "passion",
+    href: "/passion",
   },
   {
     title: "Finance",
-    href: "finance",
+    href: "/finance",
   },
   {
     title: "Social Support",
-    href: "social-support",
+    href: "/social-support",
   },
 ];
 
 const Header = () => {
-  const route = useRouter();
+  const router = useRouter();
+  const pathname = usePathname();
+  console.log("🚀 ~ Header ~ pathname:", pathname);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleScrollTo = (id: string) => {
-    route.push(id);
+    router.push(id);
   };
 
   return (
@@ -38,10 +42,7 @@ const Header = () => {
         <div className="flex flex-row justify-between items-center">
           <Link href="/">
             <div className="flex flex-row items-center gap-4">
-              {/* <Image src={images.logo} alt="logo" className="w-[52px] h-16" /> */}
-              <p className="text-primary-600 text-xl font-semibold">
-                HONG ANH TRAN
-              </p>
+              <Image src={images.logo} alt="logo" className="w-full h-14" />
             </div>
           </Link>
 
@@ -71,7 +72,15 @@ const Header = () => {
           <ul className="hidden md:flex flex-row gap-10">
             {navOptions.map((nav) => (
               <button onClick={() => handleScrollTo(nav.href)} key={nav.title}>
-                <li className="text-lg text-gray-800">{nav.title}</li>
+                <li
+                  className={`text-lg ${
+                    pathname === nav.href
+                      ? "text-primary-600 font-bold" // Active style
+                      : "text-gray-800"
+                  }`}
+                >
+                  {nav.title}
+                </li>
               </button>
             ))}
           </ul>
@@ -98,7 +107,15 @@ const Header = () => {
                       }}
                       key={nav.title}
                     >
-                      <li className="text-lg text-gray-800">{nav.title}</li>
+                      <li
+                        className={`text-lg ${
+                          pathname === nav.href
+                            ? "text-primary-600 font-bold" // Active style
+                            : "text-gray-800"
+                        }`}
+                      >
+                        {nav.title}
+                      </li>
                     </button>
                   ))}
                 </ul>

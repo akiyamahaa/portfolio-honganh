@@ -6,25 +6,17 @@ import React from "react";
 type Props = {
   imageSource: string | StaticImport;
   title: string;
-  description: string;
   href: string;
 };
 
-const Card = ({ description, imageSource, title, href }: Props) => {
+const Card = ({ imageSource, title, href }: Props) => {
   return (
     <Link href={href}>
-      <div className="max-w-[320px] min-w-[240px] rounded-3xl overflow-hidden relative w-full flex items-end h-[600px] transform transition-transform duration-500 ease-in-out hover:scale-105 hover:translate-y-[-40px]">
-        <Image
-          src={imageSource}
-          alt="image-activity"
-          className="absolute w-full h-full object-cover object-top"
-        />
-        <div className="p-6 relative">
-          <p className="text-3xl text-white font-semibold">{title}</p>
-          <p className="text-lg text-white text-ellipsis line-clamp-2">
-            {description}
-          </p>
-        </div>
+      <div className="w-full transform transition-transform duration-500 ease-in-out hover:scale-105 hover:translate-y-[-40px]">
+        <Image src={imageSource} alt="image-activity" className="w-full" />
+        <p className="font-hatton text-gray-800 text-[30px] md:text-[36px] text-center">
+          {title}
+        </p>
       </div>
     </Link>
   );

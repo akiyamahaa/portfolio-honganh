@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+import DivAnim from "./animation/DivAnim";
 
 interface Props {
   images: StaticImageData[];
@@ -6,7 +7,7 @@ interface Props {
 
 const Hero = ({ images }: Props) => {
   return (
-    <div className="">
+    <DivAnim className="">
       {/* Mobile */}
       <Image
         src={images[0]}
@@ -19,7 +20,7 @@ const Hero = ({ images }: Props) => {
         alt="banner"
         className="hidden md:block w-full object-cover"
       />
-    </div>
+    </DivAnim>
   );
 };
 

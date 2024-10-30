@@ -15,6 +15,24 @@ const Content = () => {
           <h1 className="text-2xl md:text-3xl xl:text-4xl font-semibold text-primary-600">
             The base of my life - Family
           </h1>
+          <div className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Image
+                src={images.timken1}
+                className="rounded-3xl h-[376px] object-cover"
+                alt="img-passion"
+              />
+              <Image
+                src={images.timken2}
+                className="rounded-3xl h-[376px] object-cover"
+                alt="img-passion"
+              />
+            </div>
+            <p className="text-base text-gray-400 text-center">
+              My parents work with Timken in Canton, Ohio, and South Carolina
+            </p>
+          </div>
+
           <PAnim className="text-base xl:text-lg text-gray-600">
             My family has always been my foundation. My parents work as
             managers, often keeping them busy. That&apos;s why my childhood is

@@ -98,20 +98,20 @@ const Content = () => {
         <DivAnim className="flex flex-row flex-wrap">
           <DivAnim className="w-full xl:w-1/2 xl:pr-3 mb-6">
             <VideoCard
-              videoSource="https://firebasestorage.googleapis.com/v0/b/vivuhanoi-expo.appspot.com/o/%20Allegro%20(Friedrich%20Kuhlau)%20-%20Tra%CC%82%CC%80n%20Ho%CC%82%CC%80ng%20Anh.mp4?alt=media&token=e131d70b-8800-4622-a7d6-81e5490b0833"
-              caption="Allegro (Friedrich Kuhlau) - Trần Hồng Anh"
+              videoSource="https://firebasestorage.googleapis.com/v0/b/vivuhanoi-expo.appspot.com/o/vid-1.mp4?alt=media&token=0bbf4965-7cba-483d-ac10-bbc733c1f860"
+              caption="Allegro (Friedrich Kuhlau) - Hong Anh Tran"
             />
           </DivAnim>
           <DivAnim className="w-full xl:w-1/2 xl:pl-3 mb-6">
             <VideoCard
-              videoSource="https://firebasestorage.googleapis.com/v0/b/vivuhanoi-expo.appspot.com/o/Honey%20(%20R.%20N.%20Dett)%20(2)%20-%20Tra%CC%82%CC%80n%20Ho%CC%82%CC%80ng%20Anh.mp4?alt=media&token=b2a7e451-3ec6-4b75-9066-0248f0ed87d0"
-              caption="Honey (R. N. Dett) - Trần Hồng Anh"
+              videoSource="https://firebasestorage.googleapis.com/v0/b/vivuhanoi-expo.appspot.com/o/vid-2.mp4?alt=media&token=0d925120-110a-4d49-b31e-d9ef1de04c53"
+              caption="Honey (R. N. Dett) - Hong Anh Tran"
             />
           </DivAnim>
           <DivAnim className="w-full mb-6">
             <VideoCard
-              videoSource="https://firebasestorage.googleapis.com/v0/b/vivuhanoi-expo.appspot.com/o/1027.mp4?alt=media&token=ab38b7fc-66d6-4bd0-8816-7d3cc6c9d8cf"
-              caption={`Excerpted from the play "Thuy Kieu" at Literature Show`}
+              videoSource="https://firebasestorage.googleapis.com/v0/b/vivuhanoi-expo.appspot.com/o/vid-3.mp4?alt=media&token=4c241c8a-abaa-438b-b3db-1ea01ccb5bbb"
+              caption={`Excerpted from the play "Thuy Kieu" at grade 10th Literature Show`}
             />
           </DivAnim>
         </DivAnim>
