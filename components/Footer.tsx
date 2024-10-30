@@ -1,7 +1,7 @@
 "use client";
 
+import { MoveUp } from "lucide-react";
 import Container from "./Container";
-import { ArrowUp } from "iconsax-react";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
           }}
         >
           <p className="min-w-fit">Back to top</p>
-          <ArrowUp color="#1F2937" size={24} />
+          <MoveUp color="#1F2937" size={24} />
         </div>
       </div>
     </Container>

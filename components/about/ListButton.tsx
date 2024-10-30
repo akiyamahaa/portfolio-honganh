@@ -1,15 +1,32 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
-import Button from "../Button";
-import Image from "next/image";
-import images from "@/constants/images";
-import DivAnim from "../animation/DivAnim";
+import React from "react";
+import { MoveRight } from "lucide-react";
+import Link from "next/link";
 
 const ListButton = () => {
   return (
-    <div className="flex flex-row gap-6">
-      <Button title="My Journey" variant="bold" onClick={() => {}} />
-      <Button title="Certificate" variant="outline" onClick={() => {}} />
+    <div className="flex flex-row gap-6 items-center md:items-start xl:items-center xl:justify-end">
+      <Link
+        href={
+          "https://drive.google.com/file/d/19Darrj3cHHgEfMzeKDA1mHnRnXl9yCZQ/view?usp=drive_link"
+        }
+        target="_blank"
+      >
+        <div className="bg-primary-600 py-3 px-5 rounded-full flex flex-row justify-center items-center gap-2 cursor-pointer hover:opacity-80 min-w-40">
+          <p className="text-white text-base font-semibold">Certificate</p>
+          <MoveRight color="#fff" size={24} />
+        </div>
+      </Link>
+      <Link
+        href={
+          "https://drive.google.com/file/d/112mhz7BCS9p1dykCTrbS6STjXy6lAHB5/view?usp=drive_link"
+        }
+        target="_blank"
+      >
+        <div className="py-3 px-5 rounded-full border border-white text-center gap-2 cursor-pointer hover:opacity-80 min-w-40">
+          <p className="text-white text-base font-semibold">Resume</p>
+        </div>
+      </Link>
 
       {/* Modal Certificate */}
     </div>

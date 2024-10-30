@@ -9,7 +9,6 @@ const PassionPage = () => {
   return (
     <div className="">
       <Hero images={[images.passionBanner1, images.passionBanner2]} />
-
       <Content />
       <Project />
       <Footer />

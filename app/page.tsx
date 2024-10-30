@@ -1,11 +1,11 @@
 import About from "@/components/about";
-import MyActivity from "@/components/activity";
+// import MyActivity from "@/components/activity";
 
 export default function Home() {
   return (
     <>
       <About />
-      <MyActivity />
+      {/* <MyActivity /> */}
     </>
   );
 }
