@@ -12,15 +12,18 @@ const activityOptions = [
     title: "Passion",
     href: "/passion",
     imageSource: images.navhome0,
+    description: `I'm an energetic and ambitious young girl with a passion for learning and a vision to make a mark in the business world. My journey started early`,
   },
   {
-    title: "Finance",
-    href: "/finance",
+    title: "My Projects",
+    href: "/my-projects",
     imageSource: images.navhome1,
+    description: `My family has always been my foundation. My parents are dynamic entrepreneurs, managing companies, which means they're often busy.`,
   },
   {
     title: "Social Support",
     href: "/social-support",
+    description: `I have a special love and desire to help poor children in difficult living conditions, especially ethnic minority children in mountainous areas.`,
     imageSource: images.navhome2,
   },
 ];
@@ -56,7 +59,7 @@ const MyActivity = () => {
         </h1>
         <motion.div
           ref={containerRef}
-          className="flex flex-row flex-wrap justify-center xl:justify-between items-center gap-6 xl:gap-0"
+          className="flex flex-row flex-wrap justify-center xl:justify-center items-center gap-6 xl:gap-6"
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -71,6 +74,7 @@ const MyActivity = () => {
                 title={activity.title}
                 imageSource={activity.imageSource}
                 href={activity.href}
+                description={activity.description}
               />
             </motion.div>
           ))}

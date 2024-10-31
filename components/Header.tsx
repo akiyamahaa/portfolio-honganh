@@ -17,8 +17,8 @@ const navOptions = [
     href: "/passion",
   },
   {
-    title: "Finance",
-    href: "/finance",
+    title: "My Projects",
+    href: "/my-projects",
   },
   {
     title: "Social Support",
@@ -29,7 +29,6 @@ const navOptions = [
 const Header = () => {
   const router = useRouter();
   const pathname = usePathname();
-  console.log("🚀 ~ Header ~ pathname:", pathname);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleScrollTo = (id: string) => {

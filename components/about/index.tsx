@@ -26,7 +26,7 @@ const About = () => {
             <div className="space-y-8 relative z-10">
               <p className="text-sm md:text-base text-white text-center md:text-start">
                 I&apos;m an energetic and ambitious young girl with a passion
-                for learning and a vision to make a mark in the finance world.
+                for learning and a vision to make a mark in the business world.
                 My journey started early, with a fascination for numbers and
                 trends, which later grew into a desire to understand the
                 mechanics of business and investment. Alongside my academic
@@ -38,7 +38,7 @@ const About = () => {
                 at &quot;One Idea One World,&quot; an event celebrated for
                 fostering innovative startup ideas supported by Google and Nike.
                 This experience validated my love for entrepreneurship,
-                solidifying my resolve to innovate and lead in the finance
+                solidifying my resolve to innovate and lead in the business
                 world.
               </p>
               <ListButton />
