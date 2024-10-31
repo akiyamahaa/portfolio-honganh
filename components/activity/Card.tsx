@@ -12,11 +12,7 @@ type Props = {
 
 const Card = ({ imageSource, title, href, description }: Props) => {
   return (
-    <div
-      className="w-full
-    
-    "
-    >
+    <div className="w-full">
       <div className="w-full flex flex-row items-center gap-6">
         <Image src={imageSource} alt="image-activity" className="w-2/5" />
         <div className="w-3/5">

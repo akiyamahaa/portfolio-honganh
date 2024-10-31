@@ -59,7 +59,7 @@ const MyActivity = () => {
         </h1>
         <motion.div
           ref={containerRef}
-          className="flex flex-row flex-wrap justify-center xl:justify-center items-center gap-6 xl:gap-6"
+          className="flex flex-row flex-wrap justify-center xl:justify-center items-center gap-4"
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -68,7 +68,7 @@ const MyActivity = () => {
             <motion.div
               key={activity.title}
               variants={cardVariants}
-              className="w-full md:w-1/3"
+              className="w-full md:w-[49%]"
             >
               <Card
                 title={activity.title}
